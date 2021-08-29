@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticket.css">
+
+
+    <title>Ticket</title>
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <span></span>
+        <form action="">
+            <p>Количество километров<input type="number" id="distance"></p>
+            <span></span>
+            <p>Возраст<input type="number" id="age"></p>
+            <span></span>
+            <p>Вес багажа<input type="number" id="weight"></p>
+            <span></span>
+            <button id="sub" type="submit"><h2>Рассчитать</h2></button>
+        </form>
+        <span></span>
+        
+        <div class="container-sub">
+            <span class="choise">Предложения:</span>
+            <p class="name">    Аэрофлот</p>
+            <ul class="air">
+                <li id="econom"></li>
+                <li id="prime"></li>
+                <li id="lux"></li>
+            </ul>
+            <p class="name">РЖД</p>
+            <ul class="rjd">
+               <li id="econom-rjd"></li>
+               <li id="prime-rjd"></li>
+               <li id="lux-rjd"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="air.js"></script>
+    <script src="rjd.js"></script>
+    </body>
+</html>

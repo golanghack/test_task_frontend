@@ -1,0 +1,57 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+header{
+    height: 45px;
+    border: 2px solid gray;
+    width: 100%;
+    border-top: 2px solid white;
+}
+.container{
+margin: auto;
+border: 1px solid gray;
+padding-top: 30px;
+width: 90%;
+}
+p{
+    font-weight: bold;
+    padding: 18px; 
+    line-height: 4.9;
+}
+li{
+    list-style-type: none;
+}
+input{
+    width: 77%;
+    float: right;
+    height: 30px;
+    padding: 12px;
+    margin: 12px;
+}
+#sub{
+    background-color: rgb(81, 149, 172);
+    height: 68px;
+    width: 100%;
+    color: snow;
+}
+.container-sub{
+    border: 1px solid gray;
+}
+span{
+    padding: 3px;
+}
+.name{
+background-color:whitesmoke;
+color:black;
+padding-left: 8px;
+font-weight: bold;
+}
+.choise{
+    padding: 4px;
+    font-weight: bold;
+    color:black;
+}
